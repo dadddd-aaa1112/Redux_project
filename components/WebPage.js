@@ -4,6 +4,7 @@ import Cars from "./Cars";
 import Cars_list from "../containers/cars_list";
 import Cities_list from "../containers/cities";
 import Details from "../containers/detailsCar";
+import DetailsCity from "../containers/detailsCity";
 
 const WebPage = () => (
   <>
@@ -12,6 +13,7 @@ const WebPage = () => (
     <Details />
     <Cities />
     <Cities_list />
+    <DetailsCity />
   </>
 );
 
