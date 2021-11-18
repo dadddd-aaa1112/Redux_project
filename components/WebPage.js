@@ -1,11 +1,14 @@
 import React from "react";
+import Cities from "./Cities";
+import Cars from "./Cars";
+import Cars_list from "../containers/cars_list";
 
 const WebPage = () => (
-  <div>
-    <h2>Cars:</h2>
-    <hr />
-    <h3>Details:</h3>
-  </div>
+  <>
+    <Cars />
+    <Cars_list />
+    <Cities />
+  </>
 );
 
 export default WebPage;
