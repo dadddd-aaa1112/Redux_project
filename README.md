@@ -1,2 +1,2 @@
 # Redux_project
-Created with CodeSandbox
+Show car, city name and their description 
